@@ -1,3 +1,4 @@
+/*  Universal attributes */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Navbar  */
 
 header {
     padding: 20px;
@@ -41,14 +44,20 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/*  anchor tag for the nav bar links...  */
 a {
     color: #ffffff;
 }
 
+
+
+
+/*  for the section text  */
 p {
     font-size: 16px;
 }
 
+/*  middle section photo to stretch across  */
 #hero {
     height: 800px;
     width: 100%;
@@ -57,6 +66,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+
+
+/* bottom Section */
 
 .float-left {
     float: left;
@@ -68,21 +81,43 @@ p {
     margin-left: 25px;
 }
 
-/* Section */
+/* left block of bottom section*/
+
+.leftsection {
+    width: 70%;
+    display: inline-block;
+}
+/* right block of bottom section */
+
+.rightsection {
+    width: 25%;
+    display: inline-block;
+    }
+
+
+
+/* articles inside bottom left section  */
 section {
-    width: 75%;
     display: inline-block;
     margin-left: 20px;
     margin-bottom: 20px;
-    padding: 50px;
     height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+.article {
+    display: inline-block;
+    max-height: fit-content;
+    margin: 20px;
+    padding: 20px;
+   }
+
+
 section img {
     max-height: 200px;
+    padding: 20px;
 }
 
 section h2 {
@@ -90,9 +125,11 @@ section h2 {
     font-size: 20px;
 }
 
-/* aside */
+
+/* right block of bottom section */
 aside {
-    width: 20%;
+    display: block;
+    width: 100%;
     height: 100%;
     clear: both;
     float: right;
@@ -113,11 +150,11 @@ aside p, h3 {
 }
 
 .aside {
-    width: 20%;
+    width: 100%;
     height: 100%;
     clear: both;
     float: right;
-    margin-right: 20px;
+    margin: 0px;
     padding: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -133,6 +170,10 @@ aside p, h3 {
     text-align: center;
 }
 aside img {
+    display: block;
+    position: relative;
+    left: 50px;
+    margin-left: 100px;
     margin: 10px;
     max-width: 150px;
 }
