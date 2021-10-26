@@ -1,0 +1,172 @@
+/*  universal attributes  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+/*  navigation bar area  */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*  left section of nav bar  */
+header h1 {
+    display: inline-block;
+    font-size: 32px;
+}
+
+header h1 #seo {
+    color: #949494;
+}
+
+/*  right section of nav bar  */
+header nav {
+    padding-top: 0px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*  center section image  */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg"); alt:"background";
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*   defining floats for bottom section article and aside */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Section for bottom left */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: #ffffff;
+}
+
+
+/*  article image  */
+section img {
+   max-height: 200px;
+
+}
+
+/*  article title  */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+
+ /*  article inside of section container */
+article {
+    display:inline-block;
+    background-color: #0072bb;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+/* bottom right container */
+aside {
+    width: 20%;
+    height: 100%;
+    clear: both;
+    float: right;
+    margin-right: 20px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside p, h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside {
+    width: 100%;
+    clear: both;
+    margin-right: 20px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside p, h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+aside img {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: auto;
+    max-width: 150px;
+}
+
+/* footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
