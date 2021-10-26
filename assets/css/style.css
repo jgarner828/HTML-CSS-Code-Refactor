@@ -1,4 +1,4 @@
-/*  Universal attributes */
+/*  universal attributes  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,8 +9,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Navbar  */
 
+/*  navigation bar area  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,6 +18,7 @@ header {
     color: #ffffff;
 }
 
+/*  left section of nav bar  */
 header h1 {
     display: inline-block;
     font-size: 32px;
@@ -27,8 +28,9 @@ header h1 #seo {
     color: #949494;
 }
 
+/*  right section of nav bar  */
 header nav {
-    padding-top: 15px;
+    padding-top: 0px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -44,20 +46,16 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/*  anchor tag for the nav bar links...  */
 a {
     color: #ffffff;
 }
 
-
-
-
-/*  for the section text  */
 p {
     font-size: 16px;
 }
 
-/*  middle section photo to stretch across  */
+
+/*  center section image  */
 #hero {
     height: 800px;
     width: 100%;
@@ -69,8 +67,7 @@ p {
 
 
 
-/* bottom Section */
-
+/*   defining floats for bottom section article and aside */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -81,55 +78,43 @@ p {
     margin-left: 25px;
 }
 
-/* left block of bottom section*/
-
-.leftsection {
-    width: 70%;
-    display: inline-block;
-}
-/* right block of bottom section */
-
-.rightsection {
-    width: 25%;
-    display: inline-block;
-    }
-
-
-
-/* articles inside bottom left section  */
+/* Section for bottom left */
 section {
+    width: 75%;
     display: inline-block;
     margin-left: 20px;
     margin-bottom: 20px;
     height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    
     color: #ffffff;
 }
 
-.article {
-    display: inline-block;
-    max-height: fit-content;
-    margin: 20px;
-    padding: 20px;
-   }
 
-
+/*  article image  */
 section img {
-    max-height: 200px;
-    padding: 20px;
+   max-height: 200px;
+
 }
 
+/*  article title  */
 section h2 {
     margin-bottom: 20px;
     font-size: 20px;
+    }
+
+ /*  article inside of section container */
+article {
+    display:inline-block;
+    background-color: #0072bb;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 25px;
 }
 
-
-/* right block of bottom section */
+/* bottom right container */
 aside {
-    display: block;
-    width: 100%;
+    width: 20%;
     height: 100%;
     clear: both;
     float: right;
@@ -151,10 +136,8 @@ aside p, h3 {
 
 .aside {
     width: 100%;
-    height: 100%;
     clear: both;
-    float: right;
-    margin: 0px;
+    margin-right: 20px;
     padding: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -170,11 +153,9 @@ aside p, h3 {
     text-align: center;
 }
 aside img {
-    display: block;
-    position: relative;
-    left: 50px;
-    margin-left: 100px;
-    margin: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: auto;
     max-width: 150px;
 }
 
